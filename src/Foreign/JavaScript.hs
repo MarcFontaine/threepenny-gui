@@ -23,7 +23,7 @@ module Foreign.JavaScript (
     Window, getServer, getCookies, root,
 
     -- * JavaScript FFI
-    ToJS(..), FromJS, JSFunction, JSObject, JavaScriptException,
+    JSCode(..), ToJS(..), FromJS, JSFunction, JSObject, JavaScriptException,
     FFI, ffi, runFunction, callFunction,
     NewJSObject, unsafeCreateJSObject,
     CallBufferMode(..), setCallBufferMode, getCallBufferMode, flushCallBuffer,

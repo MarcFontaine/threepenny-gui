@@ -2,7 +2,7 @@
 {-# LANGUAGE FlexibleInstances, TypeSynonymInstances, ScopedTypeVariables #-}
 {-# LANGUAGE RecordWildCards #-}
 module Foreign.JavaScript.Marshal (
-    ToJS(..), FromJS,
+    JSCode(..), ToJS(..), FromJS,
     FFI, JSFunction, toCode, marshalResult, ffi,
     IsHandler, convertArguments, handle,
 
